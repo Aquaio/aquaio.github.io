@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[upstart]]></title>
+  <link href="http://Aquaio.github.io/atom.xml" rel="self"/>
+  <link href="http://Aquaio.github.io/"/>
+  <updated>2014-02-08T20:35:52-05:00</updated>
+  <id>http://Aquaio.github.io/</id>
+  <author>
+    <name><![CDATA[aqua.io]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Some Important Changes to the Aqua.io APIs]]></title>
+    <link href="http://Aquaio.github.io/2014/02/08/some-important-changes-to-the-aqua-io-apis/"/>
+    <updated>2014-02-08T12:36:13-05:00</updated>
+    <id>http://Aquaio.github.io/2014/02/08/some-important-changes-to-the-aqua-io-apis</id>
+    <content type="html"><![CDATA[<p>As pretty much nobody knows, we initially hacked together the Aqua.io <a href="http://aqua.io/codes/icd9/documentation">ICD-9</a> and <a href="http://aqua.io/codes/icd10/documentation">ICD-10</a> APIs to support a web-based DICOM image review and notation service we created for ophthamalogists in late 2012. We never took the DICOM service to production, but thought the coding APIs were so useful that we made them open and free to all.</p>
+
+<p>By popular request, we subsequently added other APIs, including <a href="http://aqua.io/codes/ndc/documentation">NDC</a>, <a href="http://aqua.io/codes/loinc/documentation">LOINC</a>, and a few more which are still in private beta (and will be announced here in the near future). As a result, Aqua.io is the only web service we know of that offers APIs for all the coding systems required by Meaningful Use in one place and we&rsquo;ve been astounded by the enormous growth and popularity we&rsquo;ve seen with the service in the last 15 months.</p>
+
+<h2>Going beyond the basics</h2>
+
+<p>Which got us to thinking: a basic free service is great, but creating something that generates unique value is even better.</p>
+
+<p>We were happy to devote server resources to the APIs and keep them free, but often found that maintaining them and offering exciting new features (like better searchability and metadata mashups) fell too far down on our list of priorities to make the service into something truly awesome. We decided, in other words, that we didn&rsquo;t want the APIs to check off all the Meaningful Use coding requirements, but to revolutionize the ease, speed, and accuracy with which healthcare professionals and laypeople alike could interpret and encode medical data. We determined that the best way to realize this goal would be to set a pricing model for the service that:</p>
+
+<ol type="a">
+<li>Makes it generally accessible to the health tech community at no cost.</li>
+<li>Attaches a cost to the APIs for &ldquo;power users&rdquo; that would be more than fairly compensated in the value of added features.</li>
+<li>Provides motivation to the Aqua.io team to prioritize achieving our ambitions for the APIs.</li>
+</ol>
+
+
+<h2>Here comes the new pricing model</h2>
+
+<p>With those considerations in mind, here is the new pricing model we are implementing for the ICD-9/10 APIs:</p>
+
+<ul>
+<li>Unregistered clients can still make calls to the APIs for free but, starting today, will be limited to 100 calls per day per IP address. On May 1, the call limit for unregistered clients (i.e., those without API keys), will be reduced to 20 calls/day/IP. Registering for an API key for an app will always be free, and <a href="http://aqua.io/developers/sign_up">only takes a few minutes to set up</a>.</li>
+<li>Registered client applications will continue to have unlimited access to the APIs through May 1. After that point we will introduce a charge of $0.003 for each call exceeding the daily limit per IP.</li>
+<li>Client applications may now purchase user licenses with Aqua.io at a cost of $1 per user per year. API calls made on behalf of users don&rsquo;t incur any additional charges. Aqua.io will also track the user&rsquo;s search and coding habits which the client applications may then use to better understand and optimize how the users code.</li>
+</ul>
+
+
+<p>For the moment, our other public APIs will remain free but, as we add new features to those services over the coming months, expect to see them priced as affordable add-ons to this basic scheme.</p>
+
+<h2>The future</h2>
+
+<p>So, where will Aqua.io go from this new pricing launchboard? We have a lot of exciting plans for the next fews months, but are keeping them under wraps for now. If you have a question about the new pricing, though, or suggestions on what you&rsquo;d like to see for new features in the future, <a href="mailto:info@aqua.io">drop us a line</a> &mdash; we&rsquo;d love to hear from you!</p>
+]]></content>
+  </entry>
+  
+</feed>
