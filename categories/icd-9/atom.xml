@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ICD-9 | upstart]]></title>
   <link href="http://Aquaio.github.io/categories/icd-9/atom.xml" rel="self"/>
   <link href="http://Aquaio.github.io/"/>
-  <updated>2014-02-10T23:47:29-05:00</updated>
+  <updated>2014-02-15T23:23:06-05:00</updated>
   <id>http://Aquaio.github.io/</id>
   <author>
     <name><![CDATA[aqua.io]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Some Important Changes to the Aqua.io APIs]]></title>
-    <link href="http://Aquaio.github.io/2014/02/11/some-important-changes-to-the-aqua-io-apis/"/>
-    <updated>2014-02-11T12:36:13-05:00</updated>
-    <id>http://Aquaio.github.io/2014/02/11/some-important-changes-to-the-aqua-io-apis</id>
+    <link href="http://Aquaio.github.io/2014/02/16/some-important-changes-to-the-aqua-io-apis/"/>
+    <updated>2014-02-16T12:36:13-05:00</updated>
+    <id>http://Aquaio.github.io/2014/02/16/some-important-changes-to-the-aqua-io-apis</id>
     <content type="html"><![CDATA[<p>As pretty much nobody knows, we initially hacked together the Aqua.io <a href="http://aqua.io/codes/icd9/documentation">ICD-9</a> and <a href="http://aqua.io/codes/icd10/documentation">ICD-10</a> APIs to support a web-based DICOM image review and notation service we created for ophthamalogists in late 2012. We never took the DICOM service to production, but thought the coding APIs were so useful that we made them open and free to all.</p>
 
 <p>By popular request, we subsequently added other APIs, including <a href="http://aqua.io/codes/ndc/documentation">NDC</a>, <a href="http://aqua.io/codes/loinc/documentation">LOINC</a>, and a few more which are still in private beta (and will be announced here in the near future). As a result, Aqua.io is the only web service we know of that offers APIs for all the coding systems required by Meaningful Use in one place and we&rsquo;ve been astounded by the enormous growth and popularity we&rsquo;ve seen with the service in the last 15 months.</p>
